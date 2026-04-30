@@ -24,7 +24,19 @@ export default {
       },
       fontFamily: {
         sans: ['Be Vietnam Pro', 'sans-serif'],
-      }
+      },
+      spacing: {
+        13: '3.25rem',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-10deg)' },
+          '50%': { transform: 'rotate(10deg)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
     },
   },
   plugins: [],

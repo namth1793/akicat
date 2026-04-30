@@ -3,6 +3,7 @@ import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
+import FloatingContact from './components/FloatingContact';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
@@ -30,6 +31,7 @@ export default function App() {
             </Routes>
           </main>
           <Footer />
+          <FloatingContact />
         </div>
       </BrowserRouter>
     </CartProvider>
